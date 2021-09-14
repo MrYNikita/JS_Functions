@@ -126,7 +126,7 @@ let func = function jections_finder (
   return "none";
 };
 
-let test_ject = {
+let test_ject = jections_finder ({
   ject_path: "* val751",
   ject_over: {
     val1: 1,
@@ -139,4 +139,4 @@ let test_ject = {
       val751: "WW",
     },
   },
-};
+});
